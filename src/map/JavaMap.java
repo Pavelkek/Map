@@ -21,7 +21,7 @@ public final class JavaMap {
     public static void main(final String[] args) {
 
         HashMap<String, String> dataBase = new HashMap<>();
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in, "UTF-8");
         System.out.println("Введи количество пользователей");
         int numberOfUsers = in.nextInt();
         if (numberOfUsers <= 0) {
